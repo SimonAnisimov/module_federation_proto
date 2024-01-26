@@ -1,0 +1,67 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": [
+        "./src/*",
+        "./dist/*"
+      ],
+      "@app/*": [
+        "./src/_app/*"
+      ],
+      "@layouts/*": [
+        "./src/_layouts/*"
+      ],
+      "@widgets/*": [
+        "./src/_widgets/*"
+      ],
+      "@entities/*": [
+        "./src/_entities/*"
+      ],
+      "@features/*": [
+        "./src/_features/*"
+      ],
+      "@pages/*": [
+        "./src/_pages/*"
+      ],
+      "@processes/*": [
+        "./src/_processes/*"
+      ],
+      "@shared/*": [
+        "./src/_shared/*"
+      ],
+      "sharedLib/*": [
+        "./sharedLib/*"
+      ]
+    },
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "strictNullChecks": false,
+    "useDefineForClassFields": true,
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "module": "nodenext",
+    }
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

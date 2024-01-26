@@ -1,0 +1,4 @@
+export const THOUSAND_SECOND_TIMEOUT = 1000000;
+export const NO_LIMIT = 1000000000;
+
+export const OFFSET_DEFAULT = 20;
